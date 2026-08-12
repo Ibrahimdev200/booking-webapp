@@ -55,7 +55,7 @@ export const Navbar: React.FC = () => {
             </span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-            <span>✨ Hajj 2026 Registration Open</span>
+            <span>✨ Hajj 1447 / 2026 Registration Open • Halal Family & Pilgrimage Support</span>
             <CurrencySelector />
           </div>
         </div>
