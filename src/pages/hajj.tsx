@@ -98,7 +98,7 @@ export default function HajjPage() {
 
         <div className="grid-3" style={{ marginBottom: '4rem' }}>
           {MOCK_HAJJ_PACKAGES.map((pkg) => (
-            <div key={pkg.id} className="card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', borderTop: '5px solid #D4AF37' }}>
+            <div key={pkg.id} className="card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', borderTop: '5px solid #FF6B00' }}>
               <div>
                 <div style={{ position: 'relative', height: '180px' }}>
                   <img src={pkg.image} alt={pkg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />

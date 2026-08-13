@@ -22,7 +22,7 @@ export default function Home() {
       <section style={{
         position: 'relative',
         minHeight: '85vh',
-        backgroundImage: `linear-gradient(180deg, rgba(7, 17, 30, 0.75) 0%, rgba(11, 25, 44, 0.92) 100%), url('https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=1920&q=80')`,
+        backgroundImage: `linear-gradient(180deg, rgba(7, 19, 36, 0.82) 0%, rgba(15, 44, 89, 0.95) 100%), url('https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=1920&q=80')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
@@ -34,8 +34,8 @@ export default function Home() {
       }}>
         <div className="container" style={{ textAlign: 'center', position: 'relative', zIndex: 2 }}>
           <div style={{ maxWidth: '850px', margin: '0 auto 3rem' }} className="animate-fade-in">
-            <span className="badge badge-gold" style={{ fontSize: '0.85rem', padding: '0.4rem 1.2rem', marginBottom: '1.2rem' }}>
-              ✦ Premier Nigerian Travel & Pilgrimage Portal
+            <span className="badge badge-orange" style={{ fontSize: '0.85rem', padding: '0.45rem 1.25rem', marginBottom: '1.2rem' }}>
+              🚀 Official Travel Agent Demo Showcase
             </span>
             
             <h1 style={{
@@ -46,8 +46,13 @@ export default function Home() {
               color: '#FFFFFF',
               letterSpacing: '-0.5px'
             }}>
-              Your Journey. Our Pride.<br />
-              <span className="text-gold-gradient">Your Peace. Our Promise.</span>
+              Explore. Discover. Experience.<br />
+              <span style={{
+                background: 'linear-gradient(135deg, #FF6B00 0%, #FF8500 50%, #FFA033 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                fontWeight: 900
+              }}>Your Premium Travel Showcase</span>
             </h1>
 
             <p style={{

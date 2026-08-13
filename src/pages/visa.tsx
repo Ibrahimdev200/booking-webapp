@@ -121,9 +121,9 @@ export default function VisaPage() {
 
       <div className="container" style={{ padding: '3rem 1.25rem' }}>
         {/* Visa Tracker Section */}
-        <div className="card" style={{ padding: '1.5rem', marginBottom: '3rem', background: '#F8FAFC', borderLeft: '4px solid #D4AF37' }}>
+        <div className="card" style={{ padding: '1.5rem', marginBottom: '3rem', background: '#F8FAFC', borderLeft: '4px solid #FF6B00' }}>
           <h2 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#0B192C', marginBottom: '0.75rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <Clock size={18} style={{ color: '#D4AF37' }} /> Track Visa Application Status
+            <Clock size={18} style={{ color: '#FF6B00' }} /> Track Visa Application Status
           </h2>
           
           <form onSubmit={handleTrackStatus} style={{ display: 'flex', gap: '0.75rem', maxWidth: '500px' }}>

@@ -17,11 +17,11 @@ export const Footer: React.FC = () => {
 
   return (
     <footer style={{
-      background: 'linear-gradient(180deg, #0B192C 0%, #07111E 100%)',
+      background: 'linear-gradient(180deg, #0F2C59 0%, #071324 100%)',
       color: '#E2E8F0',
       paddingTop: '4rem',
       paddingBottom: '2rem',
-      borderTop: '2px solid rgba(212, 175, 55, 0.3)'
+      borderTop: '3px solid #FF6B00'
     }}>
       <div className="container">
         <div style={{
@@ -44,15 +44,15 @@ export const Footer: React.FC = () => {
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', fontSize: '0.85rem' }}>
               <div style={{ display: 'flex', gap: '0.6rem', color: '#CBD5E1' }}>
-                <MapPin size={18} style={{ color: '#D4AF37', flexShrink: 0 }} />
+                <MapPin size={18} style={{ color: '#FF6B00', flexShrink: 0 }} />
                 <span>Maktab-Manaar Avenue, Igbe, Ikorodu, Lagos State, Nigeria</span>
               </div>
               <div style={{ display: 'flex', gap: '0.6rem', color: '#CBD5E1' }}>
-                <Phone size={18} style={{ color: '#D4AF37' }} />
+                <Phone size={18} style={{ color: '#FF6B00' }} />
                 <span>0903 367 5852</span>
               </div>
               <div style={{ display: 'flex', gap: '0.6rem', color: '#CBD5E1' }}>
-                <Mail size={18} style={{ color: '#D4AF37' }} />
+                <Mail size={18} style={{ color: '#FF6B00' }} />
                 <span>ibrahimdev200@gmail.com</span>
               </div>
             </div>
@@ -60,7 +60,7 @@ export const Footer: React.FC = () => {
 
           {/* Travel Services */}
           <div>
-            <h4 style={{ color: '#D4AF37', fontSize: '1.1rem', marginBottom: '1.2rem', fontFamily: 'Playfair Display, serif' }}>
+            <h4 style={{ color: '#FF6B00', fontSize: '1.1rem', marginBottom: '1.2rem', fontFamily: 'Playfair Display, serif', fontWeight: 700 }}>
               Our Travel Services
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '0.9rem' }}>
@@ -75,7 +75,7 @@ export const Footer: React.FC = () => {
 
           {/* Quick Links & Legal */}
           <div>
-            <h4 style={{ color: '#D4AF37', fontSize: '1.1rem', marginBottom: '1.2rem', fontFamily: 'Playfair Display, serif' }}>
+            <h4 style={{ color: '#FF6B00', fontSize: '1.1rem', marginBottom: '1.2rem', fontFamily: 'Playfair Display, serif', fontWeight: 700 }}>
               Company & Legal
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '0.9rem' }}>
@@ -91,7 +91,7 @@ export const Footer: React.FC = () => {
 
           {/* Newsletter Subscription */}
           <div>
-            <h4 style={{ color: '#D4AF37', fontSize: '1.1rem', marginBottom: '1.2rem', fontFamily: 'Playfair Display, serif' }}>
+            <h4 style={{ color: '#FF6B00', fontSize: '1.1rem', marginBottom: '1.2rem', fontFamily: 'Playfair Display, serif', fontWeight: 700 }}>
               Travel Inspiration & Deals
             </h4>
             <p style={{ fontSize: '0.85rem', color: '#94A3B8', marginBottom: '1rem' }}>
@@ -122,14 +122,14 @@ export const Footer: React.FC = () => {
                   style={{
                     padding: '0.75rem',
                     borderRadius: '8px',
-                    border: '1px solid rgba(212, 175, 55, 0.3)',
+                    border: '1px solid rgba(255, 107, 0, 0.35)',
                     background: 'rgba(255, 255, 255, 0.05)',
                     color: '#FFF',
                     fontSize: '0.9rem',
                     outline: 'none'
                   }}
                 />
-                <button type="submit" className="btn btn-gold btn-sm" style={{ width: '100%' }}>
+                <button type="submit" className="btn btn-orange btn-sm" style={{ width: '100%' }}>
                   <Send size={14} /> Subscribe Newsletter
                 </button>
               </form>
@@ -153,7 +153,7 @@ export const Footer: React.FC = () => {
             © {new Date().getFullYear()} Travel Agent Demo Website (Manaar Travels Showcase). All rights reserved. Registered Travel Agency Demonstration.
           </div>
           <div style={{ display: 'flex', gap: '1rem' }}>
-            <a href="https://wa.me/2349033675852" target="_blank" rel="noopener noreferrer" style={{ color: '#D4AF37', display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+            <a href="https://wa.me/2349033675852" target="_blank" rel="noopener noreferrer" style={{ color: '#FF6B00', display: 'flex', alignItems: 'center', gap: '0.3rem', fontWeight: 600 }}>
               <MessageSquare size={14} /> WhatsApp Support (0903 367 5852)
             </a>
           </div>

@@ -62,7 +62,7 @@ export const UniversalSearchWidget: React.FC = () => {
       <div style={{
         display: 'flex',
         gap: '0.5rem',
-        borderBottom: '1px solid rgba(212, 175, 55, 0.25)',
+        borderBottom: '1px solid rgba(255, 107, 0, 0.3)',
         paddingBottom: '0.75rem',
         overflowX: 'auto',
         marginBottom: '1.5rem'
@@ -70,8 +70,8 @@ export const UniversalSearchWidget: React.FC = () => {
         <button
           onClick={() => setActiveTab('hotels')}
           style={{
-            background: activeTab === 'hotels' ? '#D4AF37' : 'rgba(255,255,255,0.08)',
-            color: activeTab === 'hotels' ? '#0B192C' : '#FFFFFF',
+            background: activeTab === 'hotels' ? '#FF6B00' : 'rgba(255,255,255,0.08)',
+            color: '#FFFFFF',
             border: 'none',
             padding: '0.6rem 1.2rem',
             borderRadius: '10px',
@@ -82,7 +82,8 @@ export const UniversalSearchWidget: React.FC = () => {
             alignItems: 'center',
             gap: '0.5rem',
             transition: 'all 0.2s ease',
-            whiteSpace: 'nowrap'
+            whiteSpace: 'nowrap',
+            boxShadow: activeTab === 'hotels' ? '0 4px 14px rgba(255,107,0,0.4)' : 'none'
           }}
         >
           <Building2 size={18} /> Hotels
@@ -91,8 +92,8 @@ export const UniversalSearchWidget: React.FC = () => {
         <button
           onClick={() => setActiveTab('flights')}
           style={{
-            background: activeTab === 'flights' ? '#D4AF37' : 'rgba(255,255,255,0.08)',
-            color: activeTab === 'flights' ? '#0B192C' : '#FFFFFF',
+            background: activeTab === 'flights' ? '#FF6B00' : 'rgba(255,255,255,0.08)',
+            color: '#FFFFFF',
             border: 'none',
             padding: '0.6rem 1.2rem',
             borderRadius: '10px',
@@ -103,7 +104,8 @@ export const UniversalSearchWidget: React.FC = () => {
             alignItems: 'center',
             gap: '0.5rem',
             transition: 'all 0.2s ease',
-            whiteSpace: 'nowrap'
+            whiteSpace: 'nowrap',
+            boxShadow: activeTab === 'flights' ? '0 4px 14px rgba(255,107,0,0.4)' : 'none'
           }}
         >
           <Plane size={18} /> Flights
@@ -112,8 +114,8 @@ export const UniversalSearchWidget: React.FC = () => {
         <button
           onClick={() => setActiveTab('hajj')}
           style={{
-            background: activeTab === 'hajj' ? '#D4AF37' : 'rgba(255,255,255,0.08)',
-            color: activeTab === 'hajj' ? '#0B192C' : '#FFFFFF',
+            background: activeTab === 'hajj' ? '#FF6B00' : 'rgba(255,255,255,0.08)',
+            color: '#FFFFFF',
             border: 'none',
             padding: '0.6rem 1.2rem',
             borderRadius: '10px',
@@ -124,7 +126,8 @@ export const UniversalSearchWidget: React.FC = () => {
             alignItems: 'center',
             gap: '0.5rem',
             transition: 'all 0.2s ease',
-            whiteSpace: 'nowrap'
+            whiteSpace: 'nowrap',
+            boxShadow: activeTab === 'hajj' ? '0 4px 14px rgba(255,107,0,0.4)' : 'none'
           }}
         >
           <ShieldCheck size={18} /> Hajj 2026
@@ -133,8 +136,8 @@ export const UniversalSearchWidget: React.FC = () => {
         <button
           onClick={() => setActiveTab('umrah')}
           style={{
-            background: activeTab === 'umrah' ? '#D4AF37' : 'rgba(255,255,255,0.08)',
-            color: activeTab === 'umrah' ? '#0B192C' : '#FFFFFF',
+            background: activeTab === 'umrah' ? '#FF6B00' : 'rgba(255,255,255,0.08)',
+            color: '#FFFFFF',
             border: 'none',
             padding: '0.6rem 1.2rem',
             borderRadius: '10px',
@@ -145,7 +148,8 @@ export const UniversalSearchWidget: React.FC = () => {
             alignItems: 'center',
             gap: '0.5rem',
             transition: 'all 0.2s ease',
-            whiteSpace: 'nowrap'
+            whiteSpace: 'nowrap',
+            boxShadow: activeTab === 'umrah' ? '0 4px 14px rgba(255,107,0,0.4)' : 'none'
           }}
         >
           ✨ Umrah
@@ -154,8 +158,8 @@ export const UniversalSearchWidget: React.FC = () => {
         <button
           onClick={() => setActiveTab('visa')}
           style={{
-            background: activeTab === 'visa' ? '#D4AF37' : 'rgba(255,255,255,0.08)',
-            color: activeTab === 'visa' ? '#0B192C' : '#FFFFFF',
+            background: activeTab === 'visa' ? '#FF6B00' : 'rgba(255,255,255,0.08)',
+            color: '#FFFFFF',
             border: 'none',
             padding: '0.6rem 1.2rem',
             borderRadius: '10px',
@@ -166,7 +170,8 @@ export const UniversalSearchWidget: React.FC = () => {
             alignItems: 'center',
             gap: '0.5rem',
             transition: 'all 0.2s ease',
-            whiteSpace: 'nowrap'
+            whiteSpace: 'nowrap',
+            boxShadow: activeTab === 'visa' ? '0 4px 14px rgba(255,107,0,0.4)' : 'none'
           }}
         >
           <FileText size={18} /> Visa Portal
@@ -175,8 +180,8 @@ export const UniversalSearchWidget: React.FC = () => {
         <button
           onClick={() => setActiveTab('tours')}
           style={{
-            background: activeTab === 'tours' ? '#D4AF37' : 'rgba(255,255,255,0.08)',
-            color: activeTab === 'tours' ? '#0B192C' : '#FFFFFF',
+            background: activeTab === 'tours' ? '#FF6B00' : 'rgba(255,255,255,0.08)',
+            color: '#FFFFFF',
             border: 'none',
             padding: '0.6rem 1.2rem',
             borderRadius: '10px',
@@ -187,7 +192,8 @@ export const UniversalSearchWidget: React.FC = () => {
             alignItems: 'center',
             gap: '0.5rem',
             transition: 'all 0.2s ease',
-            whiteSpace: 'nowrap'
+            whiteSpace: 'nowrap',
+            boxShadow: activeTab === 'tours' ? '0 4px 14px rgba(255,107,0,0.4)' : 'none'
           }}
         >
           <Compass size={18} /> Tours

@@ -32,7 +32,7 @@ export default function ContactPage() {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginBottom: '2.5rem' }}>
               <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-                <div style={{ background: 'rgba(212,175,55,0.15)', color: '#B8860B', padding: '0.8rem', borderRadius: '12px', border: '1px solid #D4AF37' }}>
+                <div style={{ background: 'rgba(255,107,0,0.12)', color: '#FF6B00', padding: '0.8rem', borderRadius: '12px', border: '1px solid rgba(255,107,0,0.35)' }}>
                   <MapPin size={24} />
                 </div>
                 <div>
@@ -44,7 +44,7 @@ export default function ContactPage() {
               </div>
 
               <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-                <div style={{ background: 'rgba(212,175,55,0.15)', color: '#B8860B', padding: '0.8rem', borderRadius: '12px', border: '1px solid #D4AF37' }}>
+                <div style={{ background: 'rgba(255,107,0,0.12)', color: '#FF6B00', padding: '0.8rem', borderRadius: '12px', border: '1px solid rgba(255,107,0,0.35)' }}>
                   <Phone size={24} />
                 </div>
                 <div>
@@ -52,14 +52,14 @@ export default function ContactPage() {
                   <p style={{ color: '#475569', fontSize: '0.95rem', marginTop: '2px' }}>
                     0903 367 5852 (Call & 24/7 WhatsApp Support)
                   </p>
-                  <a href="https://wa.me/2349033675852" target="_blank" rel="noopener noreferrer" className="btn btn-gold btn-sm" style={{ marginTop: '8px' }}>
+                  <a href="https://wa.me/2349033675852" target="_blank" rel="noopener noreferrer" className="btn btn-orange btn-sm" style={{ marginTop: '8px' }}>
                     <MessageSquare size={14} /> Chat on WhatsApp
                   </a>
                 </div>
               </div>
 
               <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-                <div style={{ background: 'rgba(212,175,55,0.15)', color: '#B8860B', padding: '0.8rem', borderRadius: '12px', border: '1px solid #D4AF37' }}>
+                <div style={{ background: 'rgba(255,107,0,0.12)', color: '#FF6B00', padding: '0.8rem', borderRadius: '12px', border: '1px solid rgba(255,107,0,0.35)' }}>
                   <Mail size={24} />
                 </div>
                 <div>
@@ -71,7 +71,7 @@ export default function ContactPage() {
               </div>
 
               <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-                <div style={{ background: 'rgba(212,175,55,0.15)', color: '#B8860B', padding: '0.8rem', borderRadius: '12px', border: '1px solid #D4AF37' }}>
+                <div style={{ background: 'rgba(255,107,0,0.12)', color: '#FF6B00', padding: '0.8rem', borderRadius: '12px', border: '1px solid rgba(255,107,0,0.35)' }}>
                   <Clock size={24} />
                 </div>
                 <div>

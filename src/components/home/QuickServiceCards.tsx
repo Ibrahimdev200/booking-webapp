@@ -78,18 +78,18 @@ export const QuickServiceCards: React.FC = () => {
                 justifyContent: 'space-between',
                 minHeight: '260px',
                 padding: '2rem',
-                backgroundImage: `linear-gradient(180deg, rgba(11, 25, 44, 0.75) 0%, rgba(11, 25, 44, 0.95) 100%), url(${item.bgImage})`,
+                backgroundImage: `linear-gradient(180deg, rgba(7, 19, 36, 0.78) 0%, rgba(15, 44, 89, 0.96) 100%), url(${item.bgImage})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 color: '#FFF',
-                border: '1px solid rgba(212, 175, 55, 0.3)'
+                border: '1px solid rgba(255, 107, 0, 0.35)'
               }}>
                 <div>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
                     <div style={{
-                      background: 'rgba(212, 175, 55, 0.2)',
-                      border: '1px solid #D4AF37',
-                      color: '#D4AF37',
+                      background: 'rgba(255, 107, 0, 0.2)',
+                      border: '1px solid #FF6B00',
+                      color: '#FF6B00',
                       width: '48px',
                       height: '48px',
                       borderRadius: '12px',
@@ -99,7 +99,7 @@ export const QuickServiceCards: React.FC = () => {
                     }}>
                       <IconComp size={24} />
                     </div>
-                    <span className="badge badge-gold" style={{ fontSize: '0.7rem' }}>{item.badge}</span>
+                    <span className="badge badge-orange" style={{ fontSize: '0.7rem' }}>{item.badge}</span>
                   </div>
 
                   <h3 style={{ fontSize: '1.4rem', fontWeight: 800, letterSpacing: '0.5px', marginBottom: '0.5rem', color: '#FFF' }}>
@@ -114,7 +114,7 @@ export const QuickServiceCards: React.FC = () => {
                   display: 'inline-flex',
                   alignItems: 'center',
                   gap: '0.5rem',
-                  color: '#D4AF37',
+                  color: '#FF6B00',
                   fontWeight: 700,
                   fontSize: '0.9rem',
                   marginTop: '1.5rem'
