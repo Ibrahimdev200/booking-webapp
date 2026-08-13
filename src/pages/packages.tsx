@@ -13,7 +13,7 @@ export default function PackagesPage() {
   return (
     <>
       <Head>
-        <title>Travel & Pilgrimage Packages | Manaar Travels & Tours</title>
+        <title>Travel & Pilgrimage Packages | Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: 'var(--navy-main)', color: '#FFF', padding: '3.5rem 0 2.5rem', textAlign: 'center' }}>

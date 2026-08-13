@@ -48,7 +48,7 @@ export default function UmrahPage() {
   return (
     <>
       <Head>
-        <title>Umrah Packages & Custom Pilgrimage | Manaar Travels & Tours</title>
+        <title>Umrah Packages & Custom Pilgrimage | Travel Agent Demo</title>
       </Head>
 
       <section style={{
@@ -138,7 +138,7 @@ export default function UmrahPage() {
                 <CheckCircle2 size={40} style={{ margin: '0 auto 10px', color: '#10B981' }} />
                 <h3 style={{ fontSize: '1.2rem', fontWeight: 800 }}>Custom Inquiry Received!</h3>
                 <p style={{ fontSize: '0.9rem', marginTop: '6px' }}>
-                  Our Umrah travel team will prepare a custom proposal and contact you via WhatsApp (0906 694 7477) shortly.
+                  Our Umrah travel team will prepare a custom proposal and contact you via WhatsApp (0903 367 5852) shortly.
                 </p>
                 <button onClick={() => setCustomSubmitted(false)} className="btn btn-navy btn-sm" style={{ marginTop: '1rem' }}>
                   Submit Another Custom Inquiry

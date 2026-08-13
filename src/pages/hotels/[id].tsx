@@ -49,7 +49,7 @@ export default function HotelDetailPage() {
   return (
     <>
       <Head>
-        <title>{hotel.name} - Manaar Travels & Tours</title>
+        <title>{hotel.name} - Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: '#FFF', borderBottom: '1px solid #E2E8F0', padding: '2rem 0' }}>

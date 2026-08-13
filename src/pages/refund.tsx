@@ -5,7 +5,7 @@ export default function RefundPage() {
   return (
     <>
       <Head>
-        <title>Refund & Cancellation Policy | Manaar Travels</title>
+        <title>Refund & Cancellation Policy | Travel Agent Demo</title>
       </Head>
       <div className="container" style={{ padding: '4rem 1.25rem', maxWidth: '850px' }}>
         <h1 style={{ fontSize: '2.2rem', fontWeight: 800, color: '#0B192C', marginBottom: '1.5rem' }}>Refund & Cancellation Policy</h1>

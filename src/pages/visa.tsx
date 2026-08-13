@@ -89,7 +89,7 @@ export default function VisaPage() {
   return (
     <>
       <Head>
-        <title>Visa Application Portal | Manaar Travels & Tours</title>
+        <title>Visa Application Portal | Travel Agent Demo</title>
       </Head>
 
       <section style={{ background: 'var(--navy-main)', color: '#FFF', padding: '3.5rem 0 2.5rem' }}>
@@ -224,7 +224,7 @@ export default function VisaPage() {
                 </div>
                 <div className="form-group">
                   <label className="form-label">Phone / WhatsApp</label>
-                  <input type="tel" required placeholder="0906 694 7477" value={applicantPhone} onChange={(e) => setApplicantPhone(e.target.value)} className="form-input" />
+                  <input type="tel" required placeholder="0903 367 5852" value={applicantPhone} onChange={(e) => setApplicantPhone(e.target.value)} className="form-input" />
                 </div>
               </div>
 

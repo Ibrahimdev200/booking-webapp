@@ -29,7 +29,7 @@ export default function LoginPage() {
   return (
     <>
       <Head>
-        <title>Login | Manaar Travels & Tours</title>
+        <title>Login | Travel Agent Demo</title>
       </Head>
 
       <div style={{ minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '3rem 1rem', background: 'var(--cream-bg)' }}>

@@ -22,11 +22,11 @@ export const AiAssistant: React.FC = () => {
 
     // Generate intelligent responses based on query keywords
     setTimeout(() => {
-      let aiReply = "Thank you for reaching out to Manaar Travels! Our travel agents are also available on WhatsApp 0906 694 7477 for official confirmation.";
+      let aiReply = "Thank you for reaching out to Travel Agent Demo! Our travel agents are also available on WhatsApp 0903 367 5852 for official confirmation.";
       const lower = userMsg.toLowerCase();
 
       if (lower.includes('hajj') || lower.includes('pilgrimage')) {
-        aiReply = "Manaar Travels offers 21-Day VIP Royal Hajj & Economy Hajj Packages for 2026. Includes 5-star Haram hotels in Makkah & Madinah, Saudia flights, VIP Mina tents, and dedicated Islamic Scholars. Check our Hajj page or contact 0906 694 7477!";
+        aiReply = "Manaar Travels offers 21-Day VIP Royal Hajj & Economy Hajj Packages for 2026. Includes 5-star Haram hotels in Makkah & Madinah, Saudia flights, VIP Mina tents, and dedicated Islamic Scholars. Check our Hajj page or contact 0903 367 5852!";
       } else if (lower.includes('umrah') || lower.includes('ramadan')) {
         aiReply = "We provide Ramadan Last 10 Days VIP Umrah, 5-Star Executive Umrah, and Budget Family packages. We can also customize packages according to your preferred dates and budget.";
       } else if (lower.includes('visa') || lower.includes('dubai') || lower.includes('uk') || lower.includes('usa')) {

@@ -51,7 +51,7 @@ export default function FlightsPage() {
   return (
     <>
       <Head>
-        <title>International Flight Booking | Manaar Travels & Tours</title>
+        <title>International Flight Booking | Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: 'var(--navy-main)', color: '#FFF', padding: '3.5rem 0 2.5rem' }}>
@@ -178,7 +178,7 @@ export default function FlightsPage() {
 
               <div className="form-group">
                 <label className="form-label">Phone / WhatsApp Number</label>
-                <input type="tel" required placeholder="0906 694 7477" value={phone} onChange={(e) => setPhone(e.target.value)} className="form-input" />
+                <input type="tel" required placeholder="0903 367 5852" value={phone} onChange={(e) => setPhone(e.target.value)} className="form-input" />
               </div>
 
               <div style={{ display: 'flex', gap: '0.75rem', marginTop: '1.5rem' }}>

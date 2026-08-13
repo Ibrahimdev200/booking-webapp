@@ -35,7 +35,7 @@ export default function TourDetailPage() {
   return (
     <>
       <Head>
-        <title>{tour.title} - Manaar Travels & Tours</title>
+        <title>{tour.title} - Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: '#0B192C', color: '#FFF', padding: '3rem 0' }}>

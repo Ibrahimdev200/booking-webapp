@@ -81,7 +81,7 @@ export default function AdminDashboardPage() {
   return (
     <>
       <Head>
-        <title>Admin Dashboard & Staff CRM | Manaar Travels</title>
+        <title>Admin Dashboard & Staff CRM | Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: 'var(--navy-deep)', color: '#FFF', padding: '2.5rem 0 1.5rem', borderBottom: '2px solid #D4AF37' }}>

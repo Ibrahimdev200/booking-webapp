@@ -49,11 +49,11 @@ export const Footer: React.FC = () => {
               </div>
               <div style={{ display: 'flex', gap: '0.6rem', color: '#CBD5E1' }}>
                 <Phone size={18} style={{ color: '#D4AF37' }} />
-                <span>0906 694 7477</span>
+                <span>0903 367 5852</span>
               </div>
               <div style={{ display: 'flex', gap: '0.6rem', color: '#CBD5E1' }}>
                 <Mail size={18} style={{ color: '#D4AF37' }} />
-                <span>manaarttravelsng@gmail.com</span>
+                <span>ibrahimdev200@gmail.com</span>
               </div>
             </div>
           </div>
@@ -150,11 +150,11 @@ export const Footer: React.FC = () => {
           color: '#64748B'
         }}>
           <div>
-            © {new Date().getFullYear()} Manaar Travels & Tours Limited. All rights reserved. Registered Travel Agency, Lagos State, Nigeria.
+            © {new Date().getFullYear()} Travel Agent Demo Website (Manaar Travels Showcase). All rights reserved. Registered Travel Agency Demonstration.
           </div>
           <div style={{ display: 'flex', gap: '1rem' }}>
-            <a href="https://wa.me/2349066947477" target="_blank" rel="noopener noreferrer" style={{ color: '#D4AF37', display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
-              <MessageSquare size={14} /> WhatsApp Support (0906 694 7477)
+            <a href="https://wa.me/2349033675852" target="_blank" rel="noopener noreferrer" style={{ color: '#D4AF37', display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+              <MessageSquare size={14} /> WhatsApp Support (0903 367 5852)
             </a>
           </div>
         </div>

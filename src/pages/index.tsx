@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Manaar Travels & Tours Limited | Official Travel & Pilgrimage Platform</title>
-        <meta name="description" content="Book Hajj 2026, Umrah packages, Dubai visas, international flights, and global hotels with Manaar Travels & Tours Limited." />
+        <title>Travel Agent Demo | Official Travel & Pilgrimage Showcase</title>
+        <meta name="description" content="Travel Agent Demo Website for booking Hajj 2026, Umrah packages, visas, international flights, and global hotels." />
       </Head>
 
       {/* Hero Section */}

@@ -5,7 +5,7 @@ export const generateBookingPDF = async (booking: Booking) => {
     <!DOCTYPE html>
     <html>
     <head>
-      <title>Manaar Travels Voucher - ${booking.reference}</title>
+      <title>Travel Agent Demo Voucher - ${booking.reference}</title>
       <style>
         body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 40px; color: #0B192C; }
         .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #D4AF37; padding-bottom: 20px; }
@@ -27,7 +27,7 @@ export const generateBookingPDF = async (booking: Booking) => {
     <body>
       <div class="header">
         <div>
-          <div class="logo">MANAAR <span>TRAVELS & TOURS</span></div>
+          <div class="logo">TRAVEL <span>DEMO SHOWCASE</span></div>
           <div class="tagline">"Your Journey, Our Pride. Your Peace, Our Promise."</div>
         </div>
         <div class="badge">${booking.status.toUpperCase()}</div>
@@ -82,7 +82,7 @@ export const generateBookingPDF = async (booking: Booking) => {
 
       <div class="footer">
         <strong>Manaar Travels & Tours Limited</strong> | Maktab-Manaar Avenue, Igbe, Ikorodu, Lagos State, Nigeria<br/>
-        Phone / WhatsApp: 0906 694 7477 | Email: manaarttravelsng@gmail.com
+        Phone / WhatsApp: 0903 367 5852 | Email: ibrahimdev200@gmail.com
       </div>
     </body>
     </html>

@@ -23,7 +23,7 @@ export default function RegisterPage() {
   return (
     <>
       <Head>
-        <title>Register Account | Manaar Travels & Tours</title>
+        <title>Register Account | Travel Agent Demo</title>
       </Head>
 
       <div style={{ minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '3rem 1rem', background: 'var(--cream-bg)' }}>
@@ -47,7 +47,7 @@ export default function RegisterPage() {
 
             <div className="form-group">
               <label className="form-label">Phone / WhatsApp</label>
-              <input type="tel" required placeholder="0906 694 7477" value={phone} onChange={(e) => setPhone(e.target.value)} className="form-input" />
+              <input type="tel" required placeholder="0903 367 5852" value={phone} onChange={(e) => setPhone(e.target.value)} className="form-input" />
             </div>
 
             <div className="form-group">

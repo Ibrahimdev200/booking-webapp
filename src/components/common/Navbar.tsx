@@ -51,11 +51,11 @@ export const Navbar: React.FC = () => {
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.2rem' }}>
             <span>📍 Maktab-Manaar Avenue, Igbe, Ikorodu, Lagos State</span>
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
-              <PhoneCall size={12} /> 0906 694 7477
+              <PhoneCall size={12} /> 0903 367 5852
             </span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-            <span>✨ Hajj 1447 / 2026 Registration Open • Halal Family & Pilgrimage Support</span>
+            <span>🚀 TRAVEL AGENT DEMO WEBSITE • Flights, Hotels, Visas, Hajj & Umrah Showcase</span>
             <CurrencySelector />
           </div>
         </div>

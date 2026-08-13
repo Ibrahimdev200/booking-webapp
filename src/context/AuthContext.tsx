@@ -54,7 +54,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       id: `usr_${Date.now()}`,
       name: email.split('@')[0].toUpperCase(),
       email,
-      phone: '0906 694 7477',
+      phone: '0903 367 5852',
       role,
       createdAt: new Date().toISOString().split('T')[0]
     };

@@ -45,7 +45,7 @@ export default function HotelsPage() {
   return (
     <>
       <Head>
-        <title>Hotel Reservations & Luxury Stays | Manaar Travels & Tours</title>
+        <title>Hotel Reservations & Luxury Stays | Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: 'var(--navy-main)', color: '#FFF', padding: '3rem 0 2rem' }}>

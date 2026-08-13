@@ -8,7 +8,7 @@ export default function DestinationsPage() {
   return (
     <>
       <Head>
-        <title>Destination Explorer | Manaar Travels & Tours</title>
+        <title>Destination Explorer | Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: 'var(--navy-main)', color: '#FFF', padding: '3.5rem 0 2.5rem' }}>

@@ -22,7 +22,7 @@ export default function CustomerDashboardPage() {
   return (
     <>
       <Head>
-        <title>Customer Dashboard | Manaar Travels & Tours</title>
+        <title>Customer Dashboard | Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: 'var(--navy-main)', color: '#FFF', padding: '2.5rem 0 1.5rem' }}>

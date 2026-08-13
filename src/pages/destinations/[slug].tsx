@@ -14,7 +14,7 @@ export default function DestinationDetailPage() {
   return (
     <>
       <Head>
-        <title>{dest.name} Travel Guide | Manaar Travels & Tours</title>
+        <title>{dest.name} Travel Guide | Travel Agent Demo</title>
       </Head>
 
       <div style={{

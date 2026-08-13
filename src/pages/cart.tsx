@@ -23,7 +23,7 @@ export default function CartPage() {
   return (
     <>
       <Head>
-        <title>Universal Travel Cart | Manaar Travels & Tours</title>
+        <title>Universal Travel Cart | Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: 'var(--navy-main)', color: '#FFF', padding: '3rem 0 2rem' }}>

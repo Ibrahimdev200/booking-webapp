@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>About Us | Manaar Travels & Tours Limited</title>
+        <title>About Us | Travel Agent Demo</title>
       </Head>
 
       <section style={{ background: 'var(--navy-main)', color: '#FFF', padding: '4rem 0 3rem', textAlign: 'center' }}>

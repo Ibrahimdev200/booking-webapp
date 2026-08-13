@@ -13,7 +13,7 @@ export default function ContactPage() {
   return (
     <>
       <Head>
-        <title>Contact Us | Manaar Travels & Tours Limited</title>
+        <title>Contact Us | Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: 'var(--navy-main)', color: '#FFF', padding: '3.5rem 0 2.5rem', textAlign: 'center' }}>
@@ -50,9 +50,9 @@ export default function ContactPage() {
                 <div>
                   <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#0B192C' }}>Phone / WhatsApp</h3>
                   <p style={{ color: '#475569', fontSize: '0.95rem', marginTop: '2px' }}>
-                    0906 694 7477 (Call & 24/7 WhatsApp Support)
+                    0903 367 5852 (Call & 24/7 WhatsApp Support)
                   </p>
-                  <a href="https://wa.me/2349066947477" target="_blank" rel="noopener noreferrer" className="btn btn-gold btn-sm" style={{ marginTop: '8px' }}>
+                  <a href="https://wa.me/2349033675852" target="_blank" rel="noopener noreferrer" className="btn btn-gold btn-sm" style={{ marginTop: '8px' }}>
                     <MessageSquare size={14} /> Chat on WhatsApp
                   </a>
                 </div>
@@ -65,7 +65,7 @@ export default function ContactPage() {
                 <div>
                   <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#0B192C' }}>Official Email</h3>
                   <p style={{ color: '#475569', fontSize: '0.95rem', marginTop: '2px' }}>
-                    manaarttravelsng@gmail.com
+                    ibrahimdev200@gmail.com
                   </p>
                 </div>
               </div>
@@ -112,7 +112,7 @@ export default function ContactPage() {
                   </div>
                   <div className="form-group">
                     <label className="form-label">Phone Number</label>
-                    <input type="tel" required placeholder="0906 694 7477" className="form-input" />
+                    <input type="tel" required placeholder="0903 367 5852" className="form-input" />
                   </div>
                 </div>
 

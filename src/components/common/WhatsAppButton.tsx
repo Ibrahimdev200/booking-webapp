@@ -8,7 +8,7 @@ interface WhatsAppButtonProps {
 export const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({ customMessage }) => {
   const defaultMsg = customMessage || "Hello Manaar Travels & Tours, I would like to enquire about your Hajj, Umrah, Flight, Hotel and Visa services.";
   const encodedMsg = encodeURIComponent(defaultMsg);
-  const whatsappUrl = `https://wa.me/2349066947477?text=${encodedMsg}`;
+  const whatsappUrl = `https://wa.me/2349033675852?text=${encodedMsg}`;
 
   return (
     <a
@@ -34,7 +34,7 @@ export const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({ customMessage })
       }}
       onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.1)')}
       onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
-      title="Chat on WhatsApp (0906 694 7477)"
+      title="Chat on WhatsApp (0903 367 5852)"
     >
       <MessageCircle size={32} />
     </a>

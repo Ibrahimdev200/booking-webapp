@@ -64,7 +64,7 @@ export default function HajjPage() {
   return (
     <>
       <Head>
-        <title>Hajj 2026 Pilgrimage Packages | Manaar Travels & Tours</title>
+        <title>Hajj 2026 Pilgrimage Packages | Travel Agent Demo</title>
       </Head>
 
       {/* Hero Section */}
@@ -193,7 +193,7 @@ export default function HajjPage() {
               <div className="grid-2">
                 <div className="form-group">
                   <label className="form-label">Phone / WhatsApp Number</label>
-                  <input type="tel" required placeholder="0906 694 7477" value={phone} onChange={(e) => setPhone(e.target.value)} className="form-input" />
+                  <input type="tel" required placeholder="0903 367 5852" value={phone} onChange={(e) => setPhone(e.target.value)} className="form-input" />
                 </div>
                 <div className="form-group">
                   <label className="form-label">Email Address</label>

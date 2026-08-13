@@ -77,7 +77,7 @@ export default function CheckoutPage() {
   return (
     <>
       <Head>
-        <title>Secure Checkout | Manaar Travels & Tours</title>
+        <title>Secure Checkout | Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: 'var(--navy-main)', color: '#FFF', padding: '3.5rem 0 2.5rem', textAlign: 'center' }}>

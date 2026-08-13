@@ -24,14 +24,14 @@ export default function FAQPage() {
     },
     {
       q: 'Where is Manaar Travels & Tours Limited located?',
-      a: 'Our main office is located at Maktab-Manaar Avenue, Igbe, Ikorodu, Lagos State, Nigeria. You can also reach us 24/7 on WhatsApp: 0906 694 7477.'
+      a: 'Our main office is located at Maktab-Manaar Avenue, Igbe, Ikorodu, Lagos State, Nigeria. You can also reach us 24/7 on WhatsApp: 0903 367 5852.'
     }
   ];
 
   return (
     <>
       <Head>
-        <title>Frequently Asked Questions | Manaar Travels</title>
+        <title>Frequently Asked Questions | Travel Agent Demo</title>
       </Head>
 
       <div style={{ background: 'var(--navy-main)', color: '#FFF', padding: '3.5rem 0 2.5rem', textAlign: 'center' }}>
